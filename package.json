@@ -1,0 +1,23 @@
+{
+    "name": "teorver",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+        "test": "mocha *.test.mjs",
+        "format": "npx prettier --write ."
+    },
+    "prettier": {
+        "tabWidth": 4,
+        "singleQuote": true
+    },
+    "author": "",
+    "license": "ISC",
+    "dependencies": {
+        "chai": "^4.3.7",
+        "mocha": "^10.2.0"
+    },
+    "devDependencies": {
+        "prettier": "^2.8.8"
+    }
+}
